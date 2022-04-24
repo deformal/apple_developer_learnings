@@ -10,7 +10,6 @@
 		0974EE00281536ED002D762D /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974EDFF281536ED002D762D /* testApp.swift */; };
 		0974EE02281536ED002D762D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974EE01281536ED002D762D /* ContentView.swift */; };
 		0974EE04281536F0002D762D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974EE03281536F0002D762D /* Assets.xcassets */; };
-		0974EE07281536F0002D762D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974EE06281536F0002D762D /* Preview Assets.xcassets */; };
 		0974EE11281536F0002D762D /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974EE10281536F0002D762D /* testTests.swift */; };
 		0974EE1B281536F0002D762D /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974EE1A281536F0002D762D /* testUITests.swift */; };
 		0974EE1D281536F0002D762D /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974EE1C281536F0002D762D /* testUITestsLaunchTests.swift */; };
@@ -38,7 +37,6 @@
 		0974EDFF281536ED002D762D /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		0974EE01281536ED002D762D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0974EE03281536F0002D762D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0974EE06281536F0002D762D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0974EE0C281536F0002D762D /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0974EE10281536F0002D762D /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		0974EE16281536F0002D762D /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +103,6 @@
 		0974EE05281536F0002D762D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0974EE06281536F0002D762D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -231,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0974EE07281536F0002D762D /* Preview Assets.xcassets in Resources */,
 				0974EE04281536F0002D762D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = 59MLW9KHGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = 59MLW9KHGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
